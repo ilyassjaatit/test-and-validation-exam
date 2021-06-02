@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  python: &python
+    build:
+      context: .
+    image: test-and-validation-exam:local
+    volumes:
+      - .:/test-and-validation-exam/
+    command: tail -f /dev/null
