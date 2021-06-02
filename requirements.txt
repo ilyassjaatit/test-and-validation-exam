@@ -1,4 +1,8 @@
 pytz==2021.1
 
-## Test requirements
+## Development
+flake8==3.9.2
+black==21.5b2
+
+## Test
 pytest==6.2.4
