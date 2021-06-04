@@ -3,3 +3,6 @@ Test and Validation exam
 
 ### Run python container
 `docker-compose run --rm python bash`
+
+### Run pytest 
+`docker-compose run --rm python pytest `
